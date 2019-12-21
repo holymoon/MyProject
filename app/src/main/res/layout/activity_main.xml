@@ -9,10 +9,27 @@
     tools:context=".MainActivity">
 
     <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="check network"
+    android:onClick="check_net"/>
+    <EditText
+        android:id="@+id/ed"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="check network"
-        android:onClick="check_net"/>
+        android:hint="city"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="send request"
+        android:onClick="send"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/tv"/>
+
 
 
 
